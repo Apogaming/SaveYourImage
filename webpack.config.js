@@ -26,7 +26,12 @@ module.exports = {
                 test: /\.css$/, // применять это правило только к CSS-файлам
                 use: [
                     isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
-                    'css-loader',
+                    {
+                        loader:'css-loader',
+                        options: {
+                            importLoaders: 2
+                        }
+                    },
                     'postcss-loader',
                 ], // если вы собираете в режиме dev, то плагин MiniCssExtractPlugin загружать не нужно.
             },
