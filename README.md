@@ -1,4 +1,4 @@
-# Sprint_11_@
+# Sprint_11_2
 "Webpack first project"
 
 Версия 2.0.1
