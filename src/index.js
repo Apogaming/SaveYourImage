@@ -51,7 +51,7 @@ import {UserInfo} from './script/UserInfo';
       wrongUrl: 'Здесь должна быть ссылка',
       wrongPattern: 'Введите данные в верном формате',
     }
-    const new_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+    const new_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
     const config = {
       url: `${new_URL}/cohort12`,
       headers: {
